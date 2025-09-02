@@ -1,7 +1,7 @@
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, ConversationHandler
 
-# Токен твоего бота
+# Токен бота
 TOKEN = "8434188817:AAHbq1d2H7kkKI2FsOQXbRY7dGXRKUA1ua4"
 
 AGE, HEIGHT, WEIGHT, GENDER, ACTIVITY = range(5)
@@ -79,4 +79,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
